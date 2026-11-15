@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Solid Black Rounded Square Background -->
+  <rect width="32" height="32" rx="7" fill="#000000" />
+
+  <!-- Crisp White </> Symbol -->
+  <g fill="none" stroke="#ffffff" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Left Angle Bracket (<) -->
+    <polyline points="10.5,11 5.5,16 10.5,21" />
+    
+    <!-- Forward Slash (/) -->
+    <line x1="18" y1="9.5" x2="14" y2="22.5" />
+    
+    <!-- Right Angle Bracket (>) -->
+    <polyline points="21.5,11 26.5,16 21.5,21" />
+  </g>
+</svg>
