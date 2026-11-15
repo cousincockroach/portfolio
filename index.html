@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thapelo — Full-Stack Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&family=Playfair+Display:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <canvas id="smoke-canvas"></canvas>
+
+    <header class="site-header">
+        <a href="#" class="logo">Thapelo.</a>
+        <nav class="nav-links">
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact" class="nav-btn">Reach Out</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <div class="badge">
+                <span class="status-dot"></span> Available for opportunities
+            </div>
+            <h1 class="hero-title">
+                <span class="serif-italic">Hey,</span> there
+            </h1>
+            <p class="hero-subtitle">
+                I am <strong class="name-bold">Thapelo</strong>, a Full-Stack Software Developer specializing in clean vanilla architectures, responsive React interfaces, and robust Node.js backends.
+            </p>
+            <div class="hero-actions">
+                <a href="#projects" class="btn-primary">View Projects</a>
+                <a href="https://github.com/cousincockroach" target="_blank" rel="noopener noreferrer" class="btn-secondary">GitHub Profile</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <div class="section-header">
+            <h2>Project Highlights</h2>
+            <p>A selection of applications built with clean code, modern APIs, and strict performance standards.</p>
+        </div>
+
+        <div class="projects-grid">
+            <article class="project-card">
+                <a href="https://members-only-vc76.onrender.com/" target="_blank" rel="noopener noreferrer" class="project-img-wrapper">
+                    <img src="./assets/members-only.png" alt="Members Only Message Board Preview">
+                </a>
+                <div class="project-info">
+                    <h3>Members Only</h3>
+                    <p>An authenticated message board with role-based permissions built using Node.js, Express, Passport.js, and PostgreSQL.</p>
+                    <div class="tech-tags">
+                        <span>Node.js</span><span>Express</span><span>Passport.js</span><span>PostgreSQL</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://members-only-vc76.onrender.com/" target="_blank" rel="noopener noreferrer" class="link-demo">Live Demo &nearr;</a>
+                        <a href="https://github.com/cousincockroach/members-only" target="_blank" rel="noopener noreferrer" class="link-repo">Source Code</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <a href="https://inventory-application-2k50.onrender.com/" target="_blank" rel="noopener noreferrer" class="project-img-wrapper">
+                    <img src="./assets/pulse-tech.png" alt="Pulse Tech Inventory App Preview">
+                </a>
+                <div class="project-info">
+                    <h3>Pulse Tech</h3>
+                    <p>An inventory management web application built with Node.js, Express, EJS, and PostgreSQL.</p>
+                    <div class="tech-tags">
+                        <span>Node.js</span><span>Express</span><span>EJS</span><span>PostgreSQL</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://inventory-application-2k50.onrender.com/" target="_blank" rel="noopener noreferrer" class="link-demo">Live Demo &nearr;</a>
+                        <a href="https://github.com/cousincockroach/pulse-tech" target="_blank" rel="noopener noreferrer" class="link-repo">Source Code</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <a href="https://tapz-shopping-cart.netlify.app/" target="_blank" rel="noopener noreferrer" class="project-img-wrapper">
+                    <img src="./assets/shopping-cart.png" alt="Shopping Cart App Preview">
+                </a>
+                <div class="project-info">
+                    <h3>Shopping Cart</h3>
+                    <p>A responsive React e-commerce storefront integrating the FakeStore API with dynamic cart state and pricing formatted in ZAR.</p>
+                    <div class="tech-tags">
+                        <span>React</span><span>Vite</span><span>React Router</span><span>Vanilla CSS</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://tapz-shopping-cart.netlify.app/" target="_blank" rel="noopener noreferrer" class="link-demo">Live Demo &nearr;</a>
+                        <a href="https://github.com/cousincockroach/shopping-cart" target="_blank" rel="noopener noreferrer" class="link-repo">Source Code</a>
+                    </div>
+                </div>
+            </article>
+            <article class="project-card">
+                <a href="https://tapz-cv-builder.netlify.app/" target="_blank" rel="noopener noreferrer" class="project-img-wrapper">
+                    <img src="./assets/cv-app.png" alt="CV Builder App Preview">
+                </a>
+                <div class="project-info">
+                    <h3>CV Builder</h3>
+                    <p>A modular React resume generator featuring live preview state across General Info, Education, and Experience sections.</p>
+                    <div class="tech-tags">
+                        <span>React</span><span>Vite</span><span>Vanilla CSS</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://tapz-cv-builder.netlify.app/" target="_blank" rel="noopener noreferrer" class="link-demo">Live Demo &nearr;</a>
+                        <a href="https://github.com/cousincockroach/cv-application-app" target="_blank" rel="noopener noreferrer" class="link-repo">Source Code</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <a href="https://cousincockroach.github.io/weather-app/" target="_blank" rel="noopener noreferrer" class="project-img-wrapper">
+                    <img src="./assets/weather-app.png" alt="Weather App Preview">
+                </a>
+                <div class="project-info">
+                    <h3>Weather Forecast App</h3>
+                    <p>Dynamic forecasting application integrating the Visual Crossing Weather API and Giphy API with Webpack bundling.</p>
+                    <div class="tech-tags">
+                        <span>JavaScript</span><span>Webpack</span><span>REST APIs</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://cousincockroach.github.io/weather-app/" target="_blank" rel="noopener noreferrer" class="link-demo">Live Demo &nearr;</a>
+                        <a href="https://github.com/cousincockroach/weather-app" target="_blank" rel="noopener noreferrer" class="link-repo">Source Code</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <a href="https://cousincockroach.github.io/chimp-test/" target="_blank" rel="noopener noreferrer" class="project-img-wrapper">
+                    <img src="./assets/chimp-test.png" alt="Chimp Test Preview">
+                </a>
+                <div class="project-info">
+                    <h3>Human Benchmark (Chimp Test)</h3>
+                    <p>An interactive memory-grid game inspired by Vsauce's Mindfield, built with clean vanilla JS and custom CSS grid logic.</p>
+                    <div class="tech-tags">
+                        <span>Vanilla JS</span><span>CSS Grid</span><span>HTML5</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://cousincockroach.github.io/chimp-test/" target="_blank" rel="noopener noreferrer" class="link-demo">Live Demo &nearr;</a>
+                        <a href="https://github.com/cousincockroach/chimp-test" target="_blank" rel="noopener noreferrer" class="link-repo">Source Code</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <a href="https://cousincockroach.github.io/to-do-list/" target="_blank" rel="noopener noreferrer" class="project-img-wrapper">
+                    <img src="./assets/to-do-list.png" alt="To-Do List App Preview">
+                </a>
+                <div class="project-info">
+                    <h3>To-Do List</h3>
+                    <p>A modular task management application featuring Inbox, Today, and Upcoming project views with local storage persistence.</p>
+                    <div class="tech-tags">
+                        <span>JavaScript</span><span>HTML5</span><span>Vanilla CSS</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://cousincockroach.github.io/to-do-list/" target="_blank" rel="noopener noreferrer" class="link-demo">Live Demo &nearr;</a>
+                        <a href="https://github.com/cousincockroach/to-do-list" target="_blank" rel="noopener noreferrer" class="link-repo">Source Code</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <a href="https://cousincockroach.github.io/restaurant-page/" target="_blank" rel="noopener noreferrer" class="project-img-wrapper">
+                    <img src="./assets/restaurant-page.png" alt="Restaurant Page Preview">
+                </a>
+                <div class="project-info">
+                    <h3>Restaurant Page</h3>
+                    <p>A multi-tab restaurant website ("The Resevoir") with dynamic DOM tab switching bundled using Webpack.</p>
+                    <div class="tech-tags">
+                        <span>JavaScript</span><span>Webpack</span><span>DOM</span><span>Vanilla CSS</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://cousincockroach.github.io/restaurant-page/" target="_blank" rel="noopener noreferrer" class="link-demo">Live Demo &nearr;</a>
+                        <a href="https://github.com/cousincockroach/restaurant-page" target="_blank" rel="noopener noreferrer" class="link-repo">Source Code</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <a href="https://cousincockroach.github.io/library/" target="_blank" rel="noopener noreferrer" class="project-img-wrapper">
+                    <img src="./assets/library.png" alt="Library App Preview">
+                </a>
+                <div class="project-info">
+                    <h3>Library</h3>
+                    <p>A digital book catalog allowing users to add, track read status, and manage personal book collections.</p>
+                    <div class="tech-tags">
+                        <span>JavaScript</span><span>HTML5</span><span>Vanilla CSS</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://cousincockroach.github.io/library/" target="_blank" rel="noopener noreferrer" class="link-demo">Live Demo &nearr;</a>
+                        <a href="https://github.com/cousincockroach/library" target="_blank" rel="noopener noreferrer" class="link-repo">Source Code</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <a href="https://cousincockroach.github.io/tic-tac-toe/" target="_blank" rel="noopener noreferrer" class="project-img-wrapper">
+                    <img src="./assets/tic-tac-toe.png" alt="Tic-Tac-Toe Game Preview">
+                </a>
+                <div class="project-info">
+                    <h3>Tic-Tac-Toe</h3>
+                    <p>A browser-based Tic-Tac-Toe game built with modular factory functions and clean state encapsulation.</p>
+                    <div class="tech-tags">
+                        <span>JavaScript</span><span>CSS Grid</span><span>HTML5</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://cousincockroach.github.io/tic-tac-toe/" target="_blank" rel="noopener noreferrer" class="link-demo">Live Demo &nearr;</a>
+                        <a href="https://github.com/cousincockroach/tic-tac-toe" target="_blank" rel="noopener noreferrer" class="link-repo">Source Code</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <a href="https://cousincockroach.github.io/homepage/" target="_blank" rel="noopener noreferrer" class="project-img-wrapper">
+                    <img src="./assets/homepage.png" alt="Responsive Homepage Preview">
+                </a>
+                <div class="project-info">
+                    <h3>Responsive Homepage</h3>
+                    <p>A multi-breakpoint responsive landing page showcase built with pure HTML5 and fluid Vanilla CSS layouts.</p>
+                    <div class="tech-tags">
+                        <span>HTML5</span><span>Vanilla CSS</span><span>Responsive Design</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://cousincockroach.github.io/homepage/" target="_blank" rel="noopener noreferrer" class="link-demo">Live Demo &nearr;</a>
+                        <a href="https://github.com/cousincockroach/homepage" target="_blank" rel="noopener noreferrer" class="link-repo">Source Code</a>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <div class="section-header">
+            <h2>Experience & Skills</h2>
+            <p>The core technologies and tools I use to take projects from concept to production.</p>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3>Frontend Engineering</h3>
+                <p>JavaScript (ES6+), React, HTML5, Vanilla CSS, Webpack, Responsive Design</p>
+            </div>
+            <div class="skill-category">
+                <h3>Backend & Database</h3>
+                <p>Node.js, Express, PostgreSQL, Prisma ORM, REST APIs, EJS</p>
+            </div>
+            <div class="skill-category">
+                <h3>Tools & Workflow</h3>
+                <p>Git & GitHub, Render, Netlify, macOS, VS Code, Vite</p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="site-footer">
+        <h2>Let's build something great.</h2>
+        <p>Got a project in mind or want to talk code? Reach out directly.</p>
+        <a href="mailto:your.email@example.com" class="btn-primary">Get In Touch</a>
+        <p class="copyright">Copyright &copy; Thapelo 2026</p>
+    </footer>
+
+    <script>
+        const canvas = document.getElementById("smoke-canvas");
+        const ctx = canvas.getContext("2d");
+
+        function resizeCanvas() {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+        }
+        window.addEventListener("resize", resizeCanvas);
+        resizeCanvas();
+
+        const particles = [];
+        let hue = 0;
+
+        window.addEventListener("mousemove", (e) => {
+            for (let i = 0; i < 3; i++) {
+                particles.push({
+                    x: e.clientX + (Math.random() * 20 - 10),
+                    y: e.clientY + (Math.random() * 20 - 10),
+                    vx: Math.random() * 2 - 1,
+                    vy: Math.random() * 2 - 1,
+                    size: Math.random() * 25 + 15,
+                    color: `hsl(${hue}, 80%, 60%)`,
+                    alpha: 0.5,
+                    decay: Math.random() * 0.015 + 0.008
+                });
+            }
+        });
+
+        function animate() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            hue = (hue + 0.5) % 360;
+
+            for (let i = particles.length - 1; i >= 0; i--) {
+                const p = particles[i];
+                p.x += p.vx;
+                p.y += p.vy;
+                p.size += 0.4;
+                p.alpha -= p.decay;
+
+                if (p.alpha <= 0) {
+                    particles.splice(i, 1);
+                    continue;
+                }
+
+                ctx.save();
+                ctx.globalAlpha = p.alpha;
+                const gradient = ctx.createRadialGradient(p.x, p.y, 0, p.x, p.y, p.size);
+                gradient.addColorStop(0, p.color);
+                gradient.addColorStop(1, "transparent");
+                ctx.fillStyle = gradient;
+                ctx.beginPath();
+                ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
+                ctx.fill();
+                ctx.restore();
+            }
+
+            requestAnimationFrame(animate);
+        }
+
+        animate();
+    </script>
+</body>
+</html>
